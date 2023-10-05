@@ -1,3 +1,4 @@
 *.out
 secondLab.dSYM
 first.dSYM
+.DS_Store
