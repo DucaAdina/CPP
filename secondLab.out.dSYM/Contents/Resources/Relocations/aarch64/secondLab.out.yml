@@ -1,0 +1,7 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/duca.ad/Documents/IT/C++labs/secondLab.out'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E10, symSize: 0x168 }
+  - { offsetInCU: 0x2C79, offset: 0x2C79, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E10, symSize: 0x168 }
+...
