@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/duca.ad/Documents/IT/C++labs/Lab2Struct.out'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003BCC, symSize: 0x1DC }
+  - { offsetInCU: 0x4607, offset: 0x4607, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0x208, symBinAddr: 0x100003DD4, symSize: 0x58 }
+  - { offsetInCU: 0x4647, offset: 0x4647, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB7v160006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x2E4, symBinAddr: 0x100003EB0, symSize: 0x2C }
+  - { offsetInCU: 0x6F65, offset: 0x6F65, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003BCC, symSize: 0x1DC }
+  - { offsetInCU: 0x7093, offset: 0x7093, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB7v160006EPFRS3_S4_E, symObjAddr: 0x1DC, symBinAddr: 0x100003DA8, symSize: 0x2C }
+  - { offsetInCU: 0x70C5, offset: 0x70C5, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB7v160006Ec, symObjAddr: 0x260, symBinAddr: 0x100003E2C, symSize: 0x84 }
+  - { offsetInCU: 0x7131, offset: 0x7131, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB7v160006Ec, symObjAddr: 0x310, symBinAddr: 0x100003EDC, symSize: 0x38 }
+...

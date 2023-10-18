@@ -15,7 +15,7 @@ struct StructWithArray
 
 int main()
 {
-    TwoInts i2 = { }; // declaram o structură i2, (0 pentru a și b     0000 0000 )
+    TwoInts i2 = { }; // declaram o structură i2, (0 pentru a și b 0000 0000 )
     i2.a = 5; // schimbam i2 a la 5 
     i2.b = 7; // schimbam i2 a la 7 
     // adress36 0005 
