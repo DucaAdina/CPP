@@ -1,14 +1,19 @@
 #include <iostream>
 
 //Объявите в новом файле main.cpp функцию которая принимает int и возвращает int с именем hello
-int hello (int parameter);
+static int hello (int parameter);
+extern int a;
 
 //Вызовите функцию в функции main и выведите результат в консоль
 int main()
 {
-    int result = hello(100);
+    int result = hello(a);
     std::cout << result;
     return 0;
+}
+int hello (int parameter)
+{
+ return parameter;
 }
 
 //Попробуйте скомпилировать только файл main.cpp. Объясните ошибки

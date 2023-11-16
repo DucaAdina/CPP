@@ -8,14 +8,15 @@ int hello (int parameter);
 
 int main()
 {
-    int result = hello(100);
-    std::cout << result;
+    //int result = hello(100);
+    //std::cout << result;
+    std:: cout << hello(100);
     return 0;
 }
 //Попробуйте скомпилировать. Объясните полученную ошибку
 
  /*daca executam doar codul pana la acest moment, el genereaza eroare deoarece
- este prezent doar prototipul functiei si nu este definit ce returneaza functia*/
+ este prezent doar prototipul functiei si nu este definit ce returneaza functia (realizarea)*/
 
 //Определите функцию в файле main.cpp (любое валидное тело) и попробуйте скомпилировать. (Должно пойти)
 int hello (int parameter)

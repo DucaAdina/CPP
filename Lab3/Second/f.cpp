@@ -1,7 +1,7 @@
-#include <iostream>
 
 //Объявите в новом файле f.cpp функцию которая принимает int и возвращает int с именем hello
-/* int hello (int parameter); */
+ static int hello (int parameter); 
+  int a = 10;
 
 //Попробуйте скомпилировать (оба файла разом). Объясните ошибки
 /*apare eroare din cauza nedefinirii functiei, compilatorul nu stie ce trebuie sa faca u acest parametru  */
