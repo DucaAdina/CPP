@@ -34,8 +34,7 @@ int main()
     int* b = stackMemory1();
     /*posibil ca var a1 contine valoarea 1, dar nu este garantat, pentru ca memoria nu este gestionata de aplicatie*/
     int a1 = *b; // 1
-    /* variabila b pastreaza adresa unei celule aleatorie din memorie, fiindca variabila definita
-    in stackMemory2 nu mai exista. Functia StackMemory2 va utiliza aceeasi memorie ca StackMemory1, 
+    /* variabila b pastreaza adresa unde acea variabila a existat in trecut. Functia StackMemory2 va utiliza aceeasi memorie ca StackMemory1, 
     atunci valoarea c==b*/
     int* c = stackMemory2();
     int a2 = *c; // 2

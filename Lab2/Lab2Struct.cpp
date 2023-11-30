@@ -29,7 +29,7 @@ int main()
     StructWithArray s1 = { }; // 0 pentru toate elementele de la adresele 68-88
     s1.arr[0] = 15; // adress68 00015
 
-    StructWithArray* sPointer = &s; // adress 92 0000 adress96 00044 scriem adresa de inceput a structurii s in pointerul care ocupa 8bytes
+    StructWithArray* sPointer = &s; // adress92 0000 adress96 00044 scriem adresa de inceput a structurii s in pointerul care ocupa 8bytes
     sPointer->arr[0] = 20; // Prin intermediul pointerului sPointer, setam primul element al arrayului din structura s la 20  adress44 00020
 
     std::cout << s.arr[0] << std::endl; // 20
