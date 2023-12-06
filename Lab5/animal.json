@@ -5,6 +5,7 @@
         "legs": 4,
         "gender": "Female"
     },
+    
     {
         "nameLetters": ["B", "u", "d", "d", "y", "\u0000"],
         "name": "Buddy",
@@ -12,3 +13,4 @@
         "gender": "Male"
     }
 ]
+

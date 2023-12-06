@@ -4,6 +4,7 @@
 #include <optional>
 
 class Animal {
+    
 public:
     Animal() = default;
 
