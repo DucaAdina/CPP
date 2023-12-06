@@ -1,0 +1,14 @@
+[
+    {
+        "nameLetters": ["W", "h", "i", "s", "k", "\u0000"],
+        "name": "Whisk",
+        "legs": 4,
+        "gender": "Female"
+    },
+    {
+        "nameLetters": ["B", "u", "d", "d", "y", "\u0000"],
+        "name": "Buddy",
+        "legs": 4,
+        "gender": "Male"
+    }
+]
