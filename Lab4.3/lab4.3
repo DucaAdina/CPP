@@ -1,0 +1,14 @@
+Объясните кратко, что и каким образом энкапсулируется в вашем коде (операции? данные?).
+Объясните кратко, какую связь имеет понятие интерфейса и энкапсуляция.
+
+Am declarat clasa DynamicArray ca private, astfel campurile din interior sunt incapsulate in clasa. 
+Ele sunt accesate prin metode publice, iar alocarea, dealocarea memoriei, manipularea datelor, au loc in interiorul clasei. Astfel, se asigură o mai mare securitate,
+pentru ca utilizatorul clasei nu trebuie sa cunoasca detaliile interne ale implementarii
+
+
+Interfata si encapsularea folosite impreuna permit schimbarea implementarii fara a afecta utilizatorii interfetei. 
+Interfata defineste ceea ce un obiect poate face, encapsularea determina cum aceast lucru se face
+
+Intr-o interfata, metodele publice pe care un obiect le detine sunt expuse pentru a fi utilizate si de alte obiecte. 
+Astfel se pot face modificari in metodele interfetei, fara a afecta campurile claselor
+In cazul encapsularii, la fel, modificarile sunt facute numai prin metodele publice oferite.

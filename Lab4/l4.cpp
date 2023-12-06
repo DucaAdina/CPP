@@ -81,7 +81,7 @@ void test2()
     DynamicArray arr = DynamicArray();
    assert(arr.currentIndex == 0);
     addElementToArray(&arr, 5);
-    assert(arr.currentIndex == 1);//erifică dacă currentIndex a fost actualizat corect după adăugarea unui element. În acest caz, ar trebui să fie 1, indicând că un element a fost adăugat cu succes.
+    assert(arr.currentIndex == 1);//verifică dacă currentIndex a fost actualizat corect după adăugarea unui element. În acest caz, ar trebui să fie 1, indicând că un element a fost adăugat cu succes.
 }
 
 // При добавлении элементов в массив, удваивайте длину, если массив полный. 

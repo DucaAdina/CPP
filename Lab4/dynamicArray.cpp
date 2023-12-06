@@ -5,7 +5,7 @@
 
 DynamicArray createDynamicArrayWithCapacity( size_t capacity )
 {
-    //  alocăm memorie dinamică pentru un array de întregi, functia returnează un pointer la această zonă de memorie
+    //alocăm memorie dinamică pentru un array de întregi, functia returnează un pointer la această zonă de memorie
     //un pointer de tip void* poate stoca adresa oricărui tip de date, deoarece void* este un pointer generic care nu are tip de date specific asociat.
     void* memoryBlock = malloc(capacity * sizeof(int));// nr de elemente pe care vrem sa le alocam * dimensiunea în octeți a unui el int
     //adresa primei celule de 16 bytes

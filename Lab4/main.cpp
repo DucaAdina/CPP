@@ -1,6 +1,7 @@
 #include "dynamicArray.h"
 #include <cassert>
 
+
 void test1()
 {
     DynamicArray arr = createDynamicArrayWithCapacity(10);// Se creează o variabilă arr de tip DynamicArray și se inițializează cu rezultatul apelului funcției createDynamicArrayWithCapacity(10). Se solicită astfel crearea unui obiect DynamicArray cu o capacitate inițială de 10 elemente.

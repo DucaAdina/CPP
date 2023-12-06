@@ -4,7 +4,6 @@
 #include <span>
 #pragma once
 
-
 struct DynamicArray
 {
     int* arr;
